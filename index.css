@@ -72,6 +72,7 @@ button{
     border-radius: 20px;
     outline: none;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 ul{
@@ -92,6 +93,7 @@ ul{
 
 .card1{
     background-image: url(ImagesD/Image1.jpg);
+    
 
     
 }
@@ -129,6 +131,7 @@ ul{
     background-size: cover;
     transition: transform 0.5s;
     padding: 10px 15px;
+    cursor: pointer;
 }
 .card:hover{
     transform: translateY(-10px);
