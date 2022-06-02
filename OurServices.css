@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+  font-family: "Roboto Serif", serif;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(ImagesD/wallpaper2\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+  margin-top: 15px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+  margin-top: 20px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+.headText {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 41px;
+}
+p {
+  font-size: 15px;
+  line-height: 23px;
+}
+.boxes {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 155px 155px 155px;
+  grid-row-gap: 20px;
+  margin-top: 30px;
+}
+
+.one {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 60% 35%;
+  grid-template-rows: 100%;
+  grid-column-gap: 20px;
+}
+.two {
+  /* background-color: brown; */
+  display: grid;
+  height: 100%;
+  grid-template-columns: 35% 60%;
+  grid-template-rows: 100%;
+  grid-column-gap: 20px;
+}
+.three {
+  /* background-color: burlywood; */
+  display: grid;
+  height: 100%;
+  grid-template-columns: 60% 35%;
+  grid-template-rows: 100%;
+  grid-column-gap: 20px;
+}
+.one1 {
+  margin-top: 43px;
+  margin-left: 18px;
+
+  color: #fff;
+}
+.one1 h2 {
+  text-align: center;
+  font-size: 22px;
+}
+.one1 p {
+  text-align: center;
+  font-size: 11px;
+}
+.one2 {
+  background-image: url(ImagesD/Desktop.jpg);
+  background-position: center;
+  /* width: 100px;
+     height: 100px; */
+
+  background-size: cover;
+  
+}
+.two1 {
+  background-image: url(ImagesD/website.jpg);
+  background-position: center;
+  /* width: 100px;
+    height: 100px; */
+
+  background-size: cover;
+}
+.two2 {
+  margin-top: 43px;
+  margin-left: 62px;
+
+  color: #fff;
+}
+.two2 h2 {
+  text-align: center;
+  font-size: 22px;
+}
+.two2 p {
+  text-align: center;
+  font-size: 11px;
+}
+.three2 {
+  background-image: url(ImagesD/Mobile.jpg);
+  background-position: center;
+  /* width: 100px;
+    height: 100px; */
+
+  background-size: cover;
+
+}
+.three1 {
+  margin-top: 43px;
+  margin-left: 62px;
+
+  color: #fff;
+}
+.three1 h2 {
+  text-align: center;
+  font-size: 22px;
+}
+.three1 p {
+  text-align: center;
+  font-size: 11px;
+}
