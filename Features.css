@@ -62,7 +62,7 @@
       left: 97px;
       font-size: 26px;
   }
-.caption span{
+span{
 
     color: aquamarine;
 }
@@ -84,5 +84,11 @@
 .slide{
     display: none;
 }
-
-
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 44px;
+    color: #fff;
+    
+}
