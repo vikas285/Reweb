@@ -6,7 +6,7 @@
   }
   .container {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(ImagesD/wallpaper2\ \(2\).jpg);
     background-position: center;
@@ -44,18 +44,60 @@
     width: 100%;
     height: 100vh;
     margin-top: 53px;
-
+   
     display: grid;
     grid-template-columns: 264px 264px 264px;
      grid-template-rows: 417px ;
     grid-column-gap: 100px;
   }
   .container1{
-    background-color: azure;
+
+    background-image: url(ImagesD/Image3.jpg);
+   background-size: cover;
+   background-position: center;
+   transition: 0.4s;
+   position: relative;
+   cursor: pointer;
+  
+    
+  }
+  .container1:hover{
+    transform: scale(1.2);
   }
   .container2{
-    background-color: blue;
+    background-image:url(ImagesD/Image7.jpg); 
+    background-size: cover;
+   background-position: center;
+   transition: 0.4s;
+   position: relative;
+   cursor: pointer;
+    
   }
+  .container2:hover{
+    transform: scale(1.2);
+  }
+
   .container3{
-    background-color: cadetblue;
+    background-image: url(ImagesD/Image4.jpg);
+    background-size: cover;
+   background-position: center;
+   transition: 0.4s;
+   position: relative;
+   cursor: pointer;
+  }
+  .container3:hover{
+    transform: scale(1.2);
+  }
+ .text{
+   position: absolute;
+   top: 79%;
+   color: #fff;
+   left: 8px;
+  }
+
+  .text h3{
+    font-size: 35px;
+  }
+  .text p{
+    font-size: 14px;
   }
